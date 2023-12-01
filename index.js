@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
       } catch (error) {
         console.error("Error fetching weather data:", error.message);
-        // You may want to provide user-friendly feedback, e.g., display an error message on the page
+    
       }
     }
   
